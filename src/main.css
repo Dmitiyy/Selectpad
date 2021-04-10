@@ -396,10 +396,6 @@ a{
     display: none;
 }
 
-.active {
-    display: flex;
-}
-
 /* media queries */
 
 @media (max-width: 1570px) and (min-width: 651px) {
@@ -532,6 +528,9 @@ a{
 }
 
 @media (max-width:650px) and (min-width: 451px) {
+    .active {
+        display: flex;
+    }
     .footer .container {
         width: 100%;
     }
@@ -588,6 +587,9 @@ a{
 }
 
 @media (max-width:450px) and (min-width: 300px) {
+    .active {
+        display: flex;
+    }
     .footer .container {
         width: 100%;
     }
@@ -645,6 +647,9 @@ a{
 }
 
 @media (max-width: 650px) and (min-width: 300px) {
+    .active {
+        display: flex;
+    }
     .nav .container {
         width: 100%;
     }
