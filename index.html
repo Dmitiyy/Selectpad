@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select library</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/main.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="container">
+            <h2 class="logo">Selectpad</h2>
+            <ul class="nav_list">
+                <a href="#generate"><li class="nav_list-item">Generating</li></a>
+                <a href="#developer"><li class="nav_list-item">Developer</li></a>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="burger_list">
+        <ul>
+            <a href="#generate"><li class="burger_list-item">Generating</li></a>
+            <a href="#developer"><li class="burger_list-item">Developer</li></a>
+        </ul>
+    </div>
+    <div class="header" id="generate">
+        <div class="container">
+            <div class="generate">
+                <h1 class="title">Generate your "Selectpad"</h1>
+                <p class="header_descr">
+                    Create your select-plugin on any variant, with your options.
+                    With "Selectpad" you can improve your website
+                </p>
+                <div class="wrap_btns">
+                    <div class="add_opt">
+                        <button class="btn_add-opt header_btn">Add option</button>
+                        <input class="input_add-opt" type="text" placeholder="Enter title">
+                    </div>
+                    <div class="add_subopt">
+                        <button class="btn_add-subopt header_btn">Add suboption</button>
+                        <input class="input_add-subopt" type="text" placeholder="Enter title">
+                        <input class="num_add-subopt" type="number" placeholder="Elem">
+                    </div>
+                    <div class="remove_opt">
+                        <button class="btn_remove-opt header_btn">Remove option</button>
+                        <input class="input_remove-opt" type="number" placeholder="Enter number">
+                    </div>
+                    <div class="remove_subopt">
+                        <button class="btn_remove-subopt header_btn">Remove suboption</button>
+                        <input class="input_remove-subopt" type="number" placeholder="Block">
+                        <input class="num_remove-subopt" type="number" placeholder="Elem">
+                    </div>
+                </div>
+            </div>
+            <div class="result">
+                <div class="wrap_result">
+                    <div class="selectpad">
+                        <div class="selectpad-title">Options</div>
+                        <div class="selectpad-wrap" open=false>
+                            <div class="selectpad-opt" value="option 1">Option 1</div>
+                        </div>
+                        <div class="selectpad-wrap" open=false>
+                            <div class="selectpad-opt" value="option 2">Option 2</div>
+                        </div>
+                        <div class="selectpad-wrap" open=false>
+                            <div class="selectpad-opt" value="option 3">Option 3</div>
+                        </div>
+                        <div class="selectpad-wrap" open=false>
+                            <div class="selectpad-opt" value="option 4">Option 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="advantages">
+        <div class="container">
+            <div class="advantages_item">
+                <h2>High speed</h2>
+                <p>You can create your "Selectpad" so fast, and after that you can always use it in your goals</p>
+            </div>
+            <div class="advantages_item">
+                <h2>Flexibility</h2>
+                <p>You can configure this plugin, because "Selectpad" is flexible. What you want? Add this!</p>
+            </div>
+            <div class="advantages_item">
+                <h2>Simplicity</h2>
+                <p>There are methods which help you in creating your program without any problems. Try this!</p>
+            </div>
+        </div>
+    </div>
+    <div class="developer" id="developer">
+        <div class="container">
+            <div class="center">
+                <img src="src/assets/images/avatar.jpg" alt="avatar">
+                <div class="developer_descr">
+                    <p>
+                        Hello, my name is Peshkov Dmitry, I am a Front-end developer. I turn static sites into dynamic ones, animate them.There is also experience in the development of CRM systems, various online stores with a pre-prepared design.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="links">
+        <div class="container">
+            <div class="center">
+                <a href="" target="_blank"><img src="src/assets/images/github.png" class="icon" alt="github"></a>
+                <a href="https://t.me/daptellum" target="_blank"><img src="src/assets/images/telegram.png" class="icon" alt="telegram"></a>
+                <a href="https://www.instagram.com/daptellum.dev/" target="_blank"><img src="src/assets/images/instagram.png" class="icon" alt="instagram"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <h2 class="logo">Selectpad</h2>
+        </div>
+    </div>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
